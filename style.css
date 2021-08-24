@@ -63,7 +63,7 @@ h2 {
   line-height: 1.0;
     color: #222121;
     Width: 20%;
-    font-size: 70px;
+    font-size: 60px;
     margin-top: 0;
     margin-right: 5px;
     float:left;
@@ -74,5 +74,15 @@ h2 {
       display: flex;
     flex-direction: column;
     }
+    
+    
 
 
+.ContactMe ul {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style:none;
+
+}
