@@ -45,7 +45,7 @@ h2 {
 }
 
 .hero {
-  background-image: url(../class\ projects/images/seamless-bg.gif);
+  background-image: url(./images/seamless-bg.gif);
   height:200px;
   text-align:right;
   color:rgb(1, 0, 3)
