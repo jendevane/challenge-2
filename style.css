@@ -1,0 +1,78 @@
+body {
+  padding: 20px ;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: rgb(8, 7, 7);
+  background: #868379;
+}
+
+header {
+  padding: 10px 10px;
+  background-color: #17191a;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.padding {
+  background-color: #868379;
+  padding: inherit;
+  padding: 10px 20px 10px;
+  color:#222121
+}
+header nav ul { 
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style:none;
+
+}
+header nav {
+  float: right;
+  margin: 7px 0;
+  
+}
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+  color:ivory
+}
+h2 {
+  font-size: 24px;
+}
+
+.hero {
+  background-image: url(../class\ projects/images/seamless-bg.gif);
+  height:200px;
+  text-align:right;
+  color:rgb(1, 0, 3)
+}
+.subtitle {
+  position: absolute;
+  right: 30px;
+  top: 252px;
+  background-color: #868379;
+  color:#222121
+  
+}
+
+.section-titleprimary-border {
+  line-height: 1.0;
+    color: #222121;
+    Width: 20%;
+    font-size: 70px;
+    margin-top: 0;
+    margin-right: 5px;
+    float:left;
+    border-right: 3px solid;
+    
+    }
+    .dad {
+      display: flex;
+    flex-direction: column;
+    }
+
+
