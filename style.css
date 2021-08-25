@@ -1,7 +1,7 @@
 body {
   padding: 20px ;
   margin: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 18px;
   line-height: 150%;
   color: rgb(8, 7, 7);
@@ -68,14 +68,89 @@ h2 {
     margin-right: 5px;
     float:left;
     border-right: 3px solid;
-    
+    text-align: right;
     }
+   
     .dad {
       display: flex;
     flex-direction: column;
     }
+    .flex-container {
+      display:flex;
+      flex-wrap:wrap;
+      justify-content: space-between;
+      
+    }
+    /* flex child */
+    .flex-item1 {
+      /* makes each one 45%, putting 10% between each element on the page */
+      width: 80%;
+      /* rounded corners */
+      border-radius: 14px;
+      border: 4px solid #332f30;
+      background-color: #050505;
+      font-size: 22px;
+      font-weight: bold;
+      /* puts space between each one vertically */
+      margin-bottom: 15px;
+      /* for files in local images folder, use url('../images/file-name.jpg') */
+     
+      /* tells background to fit box no matter what */
+      background-size: cover;
+      /* crops it at the center */
+      background-position: center;
+      /* padding top and bottom 20px, 0 for left/right */
+      padding: 20px 0;
+      /* sets minimum height value so there's room */
+      min-height: 250px;
+    display: flex;
+    flex-direction: column-reverse;
+    }
     
+    /* for text area inside of flex item */
+    .flex-item1 span {
     
+    width: 100px;
+    background-color: rgb(122, 118, 118);
+    padding: 10px 5px;
+    text-align:center;
+    }
+
+    
+    /* flex child */
+    .flex-item {
+      /* makes each one 45%, putting 10% between each element on the page */
+      width: 45%;
+      /* rounded corners */
+      border-radius: 14px;
+      border: 4px solid #332f30;
+      background-color: #050505;
+      font-size: 22px;
+      font-weight: bold;
+      /* puts space between each one vertically */
+      margin-bottom: 15px;
+      /* for files in local images folder, use url('../images/file-name.jpg') */
+     
+      /* tells background to fit box no matter what */
+      background-size: cover;
+      /* crops it at the center */
+      background-position: center;
+      /* padding top and bottom 20px, 0 for left/right */
+      padding: 20px 0;
+      /* sets minimum height value so there's room */
+      min-height: 250px;
+    display: flex;
+    flex-direction: column-reverse;
+    }
+    
+    /* for text area inside of flex item */
+    .flex-item span {
+    
+    width: 100px;
+    background-color: rgb(122, 118, 118);
+    padding: 10px 5px;
+    text-align:center;
+    }
 
 
 .ContactMe ul {
